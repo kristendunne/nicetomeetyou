@@ -63,7 +63,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m also working towards a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
+              I’m also working towards a <strong>certification in Nutrition</strong>.. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike could be called my best friend.
             </motion.div>
 
             <motion.div
