@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+console.log("motion:", motion);
+
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
               Cloudinary
             </a>{" "}
             seeking my next challenge. I’m extremely passionate and see myself as
-            multi-faceted — specializing in emotional intelligence, education,
+            multi-faceted - specializing in emotional intelligence, education,
             and problem solving.
           </p>
         </div>
@@ -28,11 +30,11 @@ export default function Home() {
         <div className="mb-12">
           <h2 className="text-3xl font-semibold mb-3">💡 Customer Strategy & Collaboration</h2>
           <ul className="text-left list-disc list-inside space-y-2 text-md">
-            <li>CSM at Cloudinary — partnering with media, DAM, and dev teams to drive outcomes</li>
+            <li>CSM at Cloudinary - partnering with media, DAM, and dev teams to drive outcomes</li>
             <li>Deep background in marketing, tech education, and internal enablement</li>
             <li>Fluent in product conversations: HTML/CSS, some JS/React, and creative problem-solving</li>
             <li>Skilled in synthesizing feedback and influencing cross-functional teams</li>
-            <li>Known for building rapport and trust — both internally and externally</li>
+            <li>Known for building rapport and trust - both internally and externally</li>
           </ul>
         </div>
 
@@ -57,7 +59,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I currently live in Chicago — constantly torn between being a city girl or a nature girl at heart. I love the energy of the city but feel most at peace surrounded by trees, trails, or a body of water.
+              I currently live in Chicago - constantly torn between being a city girl or a nature girl at heart. I love the energy of the city but feel most at peace surrounded by trees, trails, or a body of water.
             </motion.p>
 
             <motion.p
@@ -73,7 +75,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily—unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike just might be my best friend.
+              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily—unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
             </motion.p>
 
             <motion.p
@@ -97,7 +99,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m a sucker for time with friends and a good event—<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time throwing clay on a wheel (still figuring out if there’s a cooler word than “amateur potter” 😄).
+              I’m a sucker for time with friends and a good event -<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time with activities like wheel throwing and getting dirty with clay - also “amateur potter” 😄).
             </motion.p>
 
             <motion.p
