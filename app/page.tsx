@@ -1,8 +1,6 @@
 'use client';
 import Image from "next/image";
 import { motion } from "framer-motion";
-console.log("motion:", motion);
-
 
 export default function Home() {
   return (
@@ -77,7 +75,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily—unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
+              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
             </motion.div>
 
             <motion.div
@@ -85,7 +83,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I just got back from a short road trip to <strong>Shawnee National Forest</strong> with my boyfriend (Brian) and our doggo (Nitro). We try to adventure when and where we can—travel is such a special treat, whether with company or when riding solo.
+              I just got back from a short road trip to <strong>Shawnee National Forest</strong> with my boyfriend (Brian) and our doggo (Nitro). We try to adventure when and where we can - travel is such a special treat, whether with company or when riding solo.
             </motion.div>
 
             <motion.div
@@ -121,13 +119,13 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition duration-300"
           >
-            Connect with me on LinkedIn
+            Check me out on LinkedIn
           </a>
         </div>
 
         <div className="mb-10">
           <img
-            src="https://res.cloudinary.com/dh7gi8p79/image/upload/c_scale,w_400,f_auto,q_auto/yavepujbfpskxun7ddhm.jpg"
+            src="https://res.cloudinary.com/dh7gi8p79/image/upload/c_scale,w_400,f_auto,q_auto/Vercel/yavepujbfpskxun7ddhm.jpg"
             alt="Kristen"
             className="rounded-full w-40 h-40 object-cover mx-auto shadow-md"
           />
