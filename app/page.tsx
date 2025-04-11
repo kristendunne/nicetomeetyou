@@ -26,17 +26,6 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mb-12">
-          <h2 className="text-3xl font-semibold mb-3">💡 Customer Strategy & Collaboration</h2>
-          <ul className="text-left list-disc list-inside space-y-2 text-md">
-            <li>CSM at Cloudinary - partnering with media, DAM, and dev teams to drive outcomes</li>
-            <li>Deep background in marketing, tech education, and internal enablement</li>
-            <li>Fluent in product conversations: HTML/CSS, some JS/React, and creative problem-solving</li>
-            <li>Skilled in synthesizing feedback and influencing cross-functional teams</li>
-            <li>Known for building rapport and trust - both internally and externally</li>
-          </ul>
-        </div>
-
         <div className="mb-6">
           <motion.h2
             className="text-2xl font-semibold mb-4"
@@ -58,7 +47,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I currently live in Chicago - constantly torn between being a city girl or a nature girl at heart. I love the energy of the city but feel most at peace surrounded by trees, trails, or a body of water.
+              I currently live in Chicago - constantly torn between being a city girl or a nature girl at heart. I love the energy of the city but feel most at peace surrounded by trees, trails, and water.
             </motion.div>
 
             <motion.div
@@ -66,7 +55,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I have an ever-growing love for moving and taking care of my body and mind, and I’m always finding new areas where I’m capable. I’m just a couple of short weeks away from finishing my <strong>Yoga Teacher Training</strong> (which has taken up loads of life lately in all the best ways!) and I can’t wait to kick off this side hustle! 🧘‍♀️
+              I have an ever-growing love for moving and taking care of my body and mind, and I’m always finding new areas where I’m capable. I’m just a couple of short weeks away from finishing my <strong>Yoga Teacher Training</strong> (which has taken up loads of life lately in all the best ways) and I can’t wait to kick off this side hustle! 🧘‍♀️
             </motion.div>
 
             <motion.div
@@ -111,6 +100,18 @@ export default function Home() {
           </motion.div>
         </div>
 
+        <div className="mb-12">
+          <h2 className="text-3xl font-semibold mb-3">💡 Customer Strategy & Collaboration</h2>
+          <ul className="text-left list-disc list-inside space-y-2 text-md">
+            <li>CSM at Cloudinary - partnering with media, DAM, and dev teams to drive outcomes</li>
+            <li>Deep background in marketing, tech education, and internal enablement</li>
+            <li>Fluent in product conversations: HTML/CSS, some JS/React, and creative problem-solving</li>
+            <li>Skilled in synthesizing feedback and influencing cross-functional teams</li>
+            <li>Known for building rapport and trust - both internally and externally</li>
+          </ul>
+        </div>
+
+        
         <div className="mb-8">
           <a
             href="https://www.linkedin.com/in/kmdunne/"
