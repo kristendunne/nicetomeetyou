@@ -4,10 +4,18 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6 py-12 bg-white text-gray-800">
       <div className="max-w-3xl w-full text-center">
-        <h1 className="text-4xl font-bold mb-4">Hi Vercel! 👋 I'm Kristen</h1>
-        <p className="text-lg mb-6">
-          I'm a Customer Success Manager with a love for web technology, storytelling through data,
-          and empowering teams to build faster and smarter.
+        <h1 className="text-4xl font-bold mb-4">Hey friends at Vercel! I'm Kristen 🧁</h1>
+        <p>
+          I'm currently a Technical Customer Success Manager at{" "}
+          <a
+            href="https://cloudinary.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-blue-400 transition"
+          >
+            Cloudinary
+          </a>{" "}
+          seeking my next challenge. I like to believe I'm multi-faceted - specializing in emotional intelligence, education, and passion.
         </p>
         <div className="mb-6">
           <h2 className="text-2xl font-semibold mb-2">💼 Professional Highlights</h2>
