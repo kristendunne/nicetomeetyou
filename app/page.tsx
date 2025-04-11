@@ -15,7 +15,7 @@ export default function Home() {
           >
             Cloudinary
           </a>{" "}
-          seeking my next challenge. I like to believe I'm multi-faceted - specializing in emotional intelligence, education, and passion.
+          seeking my next challenge. I'm extremely passionate and see myself as multi-faceted - specializing in emotional intelligence, education, and problem solving.
         </p>
         <div className="mb-6">
           <h2 className="text-2xl font-semibold mb-2">💼 Professional Highlights</h2>
