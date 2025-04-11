@@ -8,7 +8,7 @@ export default function Home() {
       <div className="max-w-3xl w-full text-center">
         <div className="mb-10">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
-            Hey friends at Vercel! I'm Kristen 🧁
+            Hey friends at Vercel! My name is Kristen
           </h1>
           <p className="text-lg">
             I'm currently a Technical Customer Success Manager at{" "}
@@ -33,7 +33,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            ✨ Interests & Side Quests
+            ✨ Interests & Side Quests ✨
           </motion.h2>
           <motion.div
             className="space-y-4 text-left"
@@ -63,7 +63,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
+              I’m also working towards a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike might be my best friend.
             </motion.div>
 
             <motion.div
@@ -87,7 +87,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m a sucker for time with friends and a good event -<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time with activities like wheel throwing and getting dirty with clay - also “amateur potter” 😄.
+              I’m a sucker for time with friends and a good event - <strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time with activities like wheel throwing and getting dirty with clay - also “amateur potter” 😄.
             </motion.div>
 
             <motion.div
@@ -101,17 +101,19 @@ export default function Home() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-3xl font-semibold mb-3">💡 Customer Strategy & Collaboration</h2>
+          <h2 className="text-3xl font-semibold mb-3">✨ Overlapping Professional Skills</h2>
           <ul className="text-left list-disc list-inside space-y-2 text-md">
-            <li>CSM at Cloudinary - partnering with media, DAM, and dev teams to drive outcomes</li>
-            <li>Deep background in marketing, tech education, and internal enablement</li>
-            <li>Fluent in product conversations: HTML/CSS, some JS/React, and creative problem-solving</li>
-            <li>Skilled in synthesizing feedback and influencing cross-functional teams</li>
-            <li>Known for building rapport and trust - both internally and externally</li>
+            <li>At Cloudinary, I collaborate with developers and creatives/marketers of all levels to drive platform adoption—demonstrating value through faster page load times, improved conversion, and resource accessibility via tech stack consolidation</li>
+            <li>Deep background in marketing, tech education, and internal enablement with a focus on creating clear, engaging narratives across teams</li>
+            <li>Extensive hospitality experience—spent years behind the bar and on the floor, serving up great drinks and meaningful connections. I carry that same energy into everything I do: attentive, warm, and always looking to create a memorable experience</li>
+            <li>Skilled in synthesizing feedback and influencing cross-functional collaboration to move initiatives forward</li>
+            <li>Led onboarding program development at iManage, training 50+ support engineers, and launched "Cloudinary Café"—an office hours-style initiative to promote education, identify adoption opportunities, and share resources with enterprise customers</li>
+            <li>Technical aptitude spans across disciplines—quick to pick up new concepts and communicate them clearly, whether it’s HTML/CSS, JS/React, or platform strategy</li>
+            <li>Trusted partner known for building real rapport—with customers and colleagues alike. People tend to say I make things approachable, actionable, and just a little more fun ✨</li>
           </ul>
         </div>
 
-        
+
         <div className="mb-8">
           <a
             href="https://www.linkedin.com/in/kmdunne/"
