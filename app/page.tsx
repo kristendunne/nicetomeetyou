@@ -40,7 +40,7 @@ export default function Home() {
           <motion.h2
             className="text-2xl font-semibold mb-4"
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
             ✨ Interests & Side Quests
@@ -48,7 +48,7 @@ export default function Home() {
           <motion.div
             className="space-y-4 text-left"
             initial="hidden"
-            whileInView="visible"
+            animate="visible"
             transition={{ staggerChildren: 0.1 }}
             viewport={{ once: true }}
           >
