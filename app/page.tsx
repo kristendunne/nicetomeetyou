@@ -63,7 +63,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m also working towards a <strong>certification in Nutrition</strong>.. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike could be called my best friend.
+              I’m also working towards a <strong>certification in Nutrition</strong>. You’ll find me in the gym daily - unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and may never pass the “amateur” title… but it’s a fun challenge :) My bike could be called my best friend.
             </motion.div>
 
             <motion.div
@@ -138,6 +138,14 @@ export default function Home() {
             alt="Kristen"
             className="rounded-full w-40 h-40 object-cover mx-auto shadow-md"
           />
+        </div>
+
+        <div className="mb-12">
+          <h2 className="text-3xl font-semibold mb-3">🧠 Something New I’ve Learned</h2>
+          <p className="text-md text-left">
+            I recently learned how to use the Vercel Toolbar to leave comments directly on preview deployments —
+            super cool for async collaboration and feedback loops!
+          </p>
         </div>
 
         <p className="text-sm text-gray-500">Built with ❤️ using Next.js, deployed seamlessly on Vercel</p>
