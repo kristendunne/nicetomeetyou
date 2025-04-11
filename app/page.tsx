@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -35,16 +36,78 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="mb-12">
-          <h2 className="text-2xl font-semibold mb-2">🌿 Interests & Side Quests</h2>
-          <p className="text-md text-left">
-            I'm just a couple weeks away from completing my 200-hour Yoga Teacher Training — it’s been one of the most fulfilling journeys and I can’t wait to kick off this side hustle! 🧘‍♀️ <br /><br />
-            I’m a big believer in mind-body balance: daily gym time is non-negotiable, and I’ve been an amateur triathlete for several years. <br /><br />
-            Creativity fuels me — I’m also an amateur potter (yes, I throw clay on a wheel!) and I love live events, from music and podcast recordings to quirky community happenings. <br /><br />
-            Travel is a must — I prioritize at least one good solo trip a year, and just returned from Shawnee National Forest with my boyfriend and our dog. <br /><br />
-            Speaking of — I’ve got 3 fur babies: a goofy pup and two amazing cats. 🐾 <br /><br />
-            I genuinely love connecting with all kinds of people, and I’d be so excited to learn more about you too.
-          </p>
+        <div className="mb-6">
+          <motion.h2
+            className="text-2xl font-semibold mb-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            ✨ Interests & Side Quests
+          </motion.h2>
+          <motion.div
+            className="space-y-4 text-left"
+            initial="hidden"
+            whileInView="visible"
+            transition={{ staggerChildren: 0.1 }}
+            viewport={{ once: true }}
+          >
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I currently live in Chicago — constantly torn between being a city girl or a nature girl at heart. I love the energy of the city but feel most at peace surrounded by trees, trails, or a body of water.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I have an ever-growing love for moving and taking care of my body and mind, and I’m always finding new areas where I’m capable. I’m just a couple of short weeks away from finishing my <strong>Yoga Teacher Training</strong> (which has taken up loads of life lately in all the best ways!) and I can’t wait to kick off this side hustle! 🧘‍♀️
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I’m also working toward a <strong>certification in Nutrition</strong>, which feels like a natural next step. You’ll find me in the gym daily—unless it’s warm season in Chicago, in which case I’ll be soaking up as much sun as possible training for triathlons. I’ve been racing for years and might never pass the “amateur” title… but it’s a fun challenge :) My bike just might be my best friend.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I just got back from a short road trip to <strong>Shawnee National Forest</strong> with my boyfriend (Brian) and our doggo (Nitro). We try to adventure when and where we can—travel is such a special treat, whether with company or when riding solo.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              We share our home with our two adorable cats, <strong>Alice</strong> and <strong>Morty</strong>, and we’re still (a year later!) taking suggestions on how to fully unlock the cats ↔ dog bond... we feel like we’ve tried it all. 🐱🐱🐶
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I’m a sucker for time with friends and a good event—<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time throwing clay on a wheel (still figuring out if there’s a cooler word than “amateur potter” 😄).
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+            >
+              I genuinely love meeting all kinds of people, and I hope for the chance to get to know more of you!
+            </motion.p>
+          </motion.div>
         </div>
 
         <div className="mb-8">
