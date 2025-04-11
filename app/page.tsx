@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-6 py-16 bg-gradient-to-br from-white via-gray-50 to-gray-100 text-gray-800">
+    <main className="flex min-h-screen flex-col items-center justify-center px-6 py-16 bg-gradient-to-br from-pink-100 via-purple-200 to-blue-300 text-gray-800">
       <div className="max-w-3xl w-full text-center">
         <div className="mb-10">
-          <h1 className="text-5xl font-extrabold mb-4 leading-tight">
+          <h1 className="text-5xl font-extrabold mb-4 leading-tight bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
             Hey friends at Vercel! I'm Kristen 🧁
           </h1>
           <p className="text-lg">
@@ -36,7 +36,6 @@ export default function Home() {
             <li>Known for building rapport and trust - both internally and externally</li>
           </ul>
         </div>
-        console.log("motion object:", motion);
 
         <div className="mb-6">
           <motion.h2
@@ -99,7 +98,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
-              I’m a sucker for time with friends and a good event -<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time with activities like wheel throwing and getting dirty with clay - also “amateur potter” 😄).
+              I’m a sucker for time with friends and a good event -<strong>live music</strong>, podcast recordings, markets, and everything in between. I also love creative outlets to balance out my work brain and spend time with activities like wheel throwing and getting dirty with clay - also “amateur potter” 😄.
             </motion.div>
 
             <motion.div
@@ -117,7 +116,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/kmdunne/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition duration-300"
+            className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-semibold rounded-full shadow-lg hover:brightness-110 transition duration-300"
           >
             Check me out on LinkedIn
           </a>
@@ -131,7 +130,7 @@ export default function Home() {
           />
         </div>
 
-        <p className="text-sm text-gray-500">Built with ❤️ using Next.js and deployed on Vercel</p>
+        <p className="text-sm text-gray-500">Built with ❤️ using Next.js, deployed seamlessly on Vercel</p>
       </div>
     </main>
   );
