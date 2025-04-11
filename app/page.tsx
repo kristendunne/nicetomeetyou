@@ -141,10 +141,9 @@ export default function Home() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-3xl font-semibold mb-3">🧠 Something New I’ve Learned</h2>
+          <h2 className="text-3xl font-semibold mb-3">Something New I’ve Learned</h2>
           <p className="text-md text-left">
-            I recently learned how to use the Vercel Toolbar to leave comments directly on preview deployments —
-            super cool for async collaboration and feedback loops!
+          Some people have a condition called aphantasia, which means they can’t visualize images in their minds. They can't 'see' pictures of things, people, or places when they close their eyes even though they can still think about them.
           </p>
         </div>
 
