@@ -101,15 +101,14 @@ export default function Home() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-3xl font-semibold mb-3">✨ Overlapping Professional Skills</h2>
+          <h2 className="text-3xl font-semibold mb-3">💡 Overlapping Professional Skills 💡</h2>
           <ul className="text-left list-disc list-inside space-y-2 text-md">
-            <li>At Cloudinary, I collaborate with developers and creatives/marketers of all levels to drive platform adoption—demonstrating value through faster page load times, improved conversion, and resource accessibility via tech stack consolidation</li>
-            <li>Deep background in marketing, tech education, and internal enablement with a focus on creating clear, engaging narratives across teams</li>
-            <li>Extensive hospitality experience—spent years behind the bar and on the floor, serving up great drinks and meaningful connections. I carry that same energy into everything I do: attentive, warm, and always looking to create a memorable experience</li>
-            <li>Skilled in synthesizing feedback and influencing cross-functional collaboration to move initiatives forward</li>
-            <li>Led onboarding program development at iManage, training 50+ support engineers, and launched "Cloudinary Café"—an office hours-style initiative to promote education, identify adoption opportunities, and share resources with enterprise customers</li>
-            <li>Technical aptitude spans across disciplines—quick to pick up new concepts and communicate them clearly, whether it’s HTML/CSS, JS/React, or platform strategy</li>
-            <li>Trusted partner known for building real rapport—with customers and colleagues alike. People tend to say I make things approachable, actionable, and just a little more fun ✨</li>
+            <li>At Cloudinary, I collaborate with developers and creatives/marketers of all levels to drive platform adoption - primarily demonstrating value through faster page load times, increased conversion, and resource accessibility via tech stack consolidation</li>
+            <li>Hospitality work will forever live in my heart. I have spent years behind the bar and on the floor, serving up great drinks and making meaningful connections. I carry that same energy into everything I do: attentive, warm, and always looking to create a memorable experience</li>
+            <li>I am skilled in synthesizing feedback and influencing cross-functional collaboration to move initiatives forward</li>
+            <li>Project work drives my day-to-day. A couple of exapmples: I built an onboarding program for Support Engineers at iManage, training 50+ new hires, and launched "Cloudinary Café" in my current role - an office hours-style initiative to promote education, identify adoption opportunities, and share resources with enterprise customers</li>
+            <li>My technical aptitude is broad across disciplines. I am quick to pick up new concepts and communicate them clearly</li>
+            <li>I'm a trusted partner known for building real rapport with customers and colleagues alike. People tend to say I make things approachable, actionable, and just a little more fun</li>
           </ul>
         </div>
 
