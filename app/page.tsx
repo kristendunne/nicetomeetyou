@@ -113,11 +113,11 @@ export default function Home() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-3xl font-semibold mb-3">🔭 Looking Ahead with Vercel</h2>
+          <h2 className="text-3xl font-semibold mb-3">🔭 Looking Ahead with Vercel 🔭</h2>
           <ul className="text-left list-disc list-inside space-y-2 text-md">
-            <li>Excited to explore Vercel templates like the Image Gallery Starter to better understand how Cloudinary and Vercel work together — step one in digging deeper into integrations and collaboration potential</li>
-            <li>Dreaming up a simple app to track my journey as a new yoga teacher — logging hours, class types, and student counts to share with my YTT cohort (and finally replace that clunky spreadsheet 😅)</li>
-            <li>Hoping to help local yoga studios, climbing gyms, and small businesses build a stronger web presence — starting with a flexible site template that’s easy to customize and connect to a domain</li>
+            <li>I'm excited to explore Vercel templates like the Image Gallery Starter to better understand how Cloudinary and Vercel work together. I see this as an early step in digging deeper into integrations and collaboration potential</li>
+            <li>Currently dreaming up a simple app to track my journey as a new yoga teacher - logging hours, class types, and student counts to share with my YTT cohort (currently a manual but necessary task - excited to offer an option outside of a clunky spreadsheet 😅)</li>
+            <li>I have many goals related to helping local yoga studios, gyms, and small businesses build a stronger web presence. I would love to use Vercel to start with a flexible site template that’s easy to customize and connect to a domain</li>
           </ul>
         </div>
 
